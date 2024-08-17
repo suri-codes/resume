@@ -1,6 +1,7 @@
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
+\usepackage{tabularx}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{marvosym}
@@ -63,10 +64,10 @@
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \begin{tabularx}{0.97\textwidth}[t]{X r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabularx}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
@@ -108,21 +109,22 @@
     \textbf{\Huge \scshape Surendra Jammishetti} \\ \vspace{1pt}
     \small 669-233-6681 $|$ \href{mailto:suri312006@gmail.com}{\underline{suri312006@gmail.com}} $|$ 
     \href{https://www.linkedin.com/in/surendra-jammishetti-909809293/}{\underline{linkedin.com/in/surendraj}} $|$
+    \href{https://suridev.vercel.app/}{\underline{Personal Website}} $|$
     \href{https://github.com/suri312006}{\underline{github.com/suri312006}}
 \end{center}
-
 
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {University of California, Santa Cruz}{\textbf{GPA 4.00}}
-      {Bachelor of Science in Computer Engineering}{Aug. 2023 -- June 2026}
+      {University of California, Santa Cruz}{\textbf{GPA 3.97}}
+      {Bachelor of Science in Computer Engineering}{Aug. 2023 -- Dec. 2025}
     % \resumeSubheading
     %   {Blinn College}{Bryan, TX}
     %   {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
     \resumeSubheading
-    {Relavent Coursework}{}{Linear Algebra, Discrete Mathematics, Physics: Kinematics, Waves, Optics, Computer Systems and C Programming} \\
+    {Relevant Coursework}{}{ 
+Data Structures and Algorithms, Computer Systems and C Programming, Logic Design with Verilog, Discrete Math, Linear Algebra} \\
   \resumeSubHeadingListEnd
 
 
@@ -176,20 +178,21 @@
     \resumeSubHeadingListStart
       \resumeProjectHeading
       %replace this with term2term
-          {\textbf{Term2Term} $|$ \emph{Rust, Go, PostgreSQL, Docker}}{June 2020 -- Present}
+          {\textbf{Term2Term} $|$ \emph{Rust, Go, PostgreSQL, Docker}}{June 2024 -- Present}
           \resumeItemListStart
-            \resumeItem{Programming a Rust TUI client capable of sending encrypted messages to other clients}
-            \resumeItem{Developing a Go server to store encrypted messages in database and direct messages between clients}
+            \resumeItem{Programming a Rust TUI client capable of sending encrypted messages to other clients.}
+            \resumeItem{Developing a Go server to store encrypted messages in database and direct messages between clients.}
+            \resumeItem{Utilizing gRPC for efficient type-safe communication across clients and server.}
+            \resumeItem{Learning Peer-to-Peer communication to integrate into the client for complete user privacy.}
           \resumeItemListEnd
-        % replace this with slug mommy or something else later
-      % \resumeProjectHeading
-      %     {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
-      %     \resumeItemListStart
-      %       \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
-      %       \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
-      %       \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
-      %       \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
-      %     \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{CoupledCats} $|$ \emph{Rust, gRPC, }}{August 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
+            \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
+            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
+            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+          \resumeItemListEnd
     \resumeSubHeadingListEnd
 
 
