@@ -120,7 +120,7 @@
 )
 - Implementation of a meta-data private, traffic analysis-resistant messaging protocol.
 - Expands upon the #link("https://www.computer.org/csdl/proceedings-article/sp/2025/223600a065/21B7R9OGMwg")[original work] by supporting
-  multiple devices. 
+  multiple devices per user. 
 - Deployable to TEE's (Trusted Execution Environments) trivially.
 - Project for graduate level research class, report available #link("https://drive.google.com/file/d/15nm5yllC4aBIhJzuWWI5bV3GLxm6wPHx/view?usp=sharing")[here]
 
