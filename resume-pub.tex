@@ -1,0 +1,216 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage{tabularx}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabularx}{0.97\textwidth}[t]{X r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabularx}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape FIRST LAST} \\ \vspace{1pt}
+    \small PHONE NUMBER $|$ \href{mailto:suri312006@gmail.com}{\underline{EMAIL}} $|$ 
+    \href{https://www.linkedin.com/in/surendra-jammishetti-909809293/}{\underline{LINKED IN}} $|$
+    \href{https://suridev.vercel.app/}{\underline{Personal Website}} $|$
+    \href{https://github.com/suri312006}{\underline{github.com/suri312006}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, Santa Cruz}{\textbf{GPA 3.97}}
+      {Bachelor of Science in Computer Engineering}{Aug. 2023 -- Dec. 2025}
+    % \resumeSubheading
+    %   {Blinn College}{Bryan, TX}
+    %   {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
+    \resumeSubheading
+    {Relevant Coursework}{}{ 
+Data Structures and Algorithms, Computer Systems and C Programming, Logic Design with Verilog, Discrete Math, Linear Algebra} \\
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+
+    \resumeSubheading
+      {Lead Software Engineer}{March 2024 -- Present}
+      {\href{ConnectifyAI}\underline{ConnectifyAI} $|$ \emph{Go, Python, Typescript, PostgreSQL, Docker}}{Santa Cruz, CA}
+      \resumeItemListStart
+        \resumeItem{Leading a team of \textbf{10} Undergrads and masters students, making important decisions such as deciding the tech stack, and managing the GitLab Repository.}
+        \resumeItem{Utilizing Go and PostgreSQL to create a performant REST API for our services}
+        \resumeItem{Learned Docker and GitLab Runner to automate backend deployments.}
+        \resumeItem{Working with Professor Marinescu to research viable, performant methods to chain multiple AI/ML models.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Software Engineering Intern}{June 2024 -- Aug. 2024}
+      {LightLinks $|$ \emph{Embedded Rust and C Programming, eBPF, XDP, Kernel Programming, Networking}}{Santa Cruz, CA}
+      \resumeItemListStart
+        \resumeItem{Engineered a Multi-Device system to facilitate a light-based network protocol.}
+        \resumeItem{Utilized existing kernel frameworks, such as eBPF and XDP to implement project specifications.}
+        \resumeItem{Lead the charge in migrating legacy C codebase to Rust for improved developer experience and reliability.}
+        \resumeItem{Set up custom GitHub Actions runner to facilitate the building and testing of embedded networking software.}
+
+        \resumeItemListEnd
+
+    \resumeSubheading
+    {Artificial Intelligence Researcher}{ Nov. 2023 -- Mar. 2024}
+    {ACM AI Research Lab $|$ \emph{PyTorch, RAG, Kubernetes, Hugging Face}}{Santa Cruz, CA}
+    \resumeItemListStart
+    \resumeItem{Created a performance analysis pipeline to quantify the effectiveness of using different latent spaces to find similarities between code and English}
+    \resumeItem{Took the lead in finding a problem space for a group of 5 people to investigate.}
+    \resumeItem{Developed a rudimentary RAG to ascertain the quality of responses with different model architectures.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+      %replace this with term2term
+          {\textbf{Term2Term} $|$ \emph{Rust, Go, gRPC, PostgreSQL, Docker, Github Actions}}{June 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{Programming a Rust TUI client capable of sending encrypted messages to other users.}
+            \resumeItem{Developing a Go server to store encrypted messages in database and direct messages between users.}
+            \resumeItem{Utilizing gRPC for performant type-safe communication across clients and server.}
+            \resumeItem{Learning Peer-to-Peer communication to integrate into the client for complete user privacy.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{CoupledCats} $|$ \emph{Rust, gRPC, SQLite, Multithreading, GitHub Actions}}{August 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{Learning Bevy, a Rust game engine, to create a desktop application to connect clients with their significant others.}
+            \resumeItem{Creating a strictly Peer-to-Peer platform for utmost privacy.}
+            \resumeItem{Utilizing multithreading to run client / server processes along with the game engine event loop, using channels to facilitate communication.}
+            % \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Rust, Go, TypeScript / JavaScript, Python, C/C++, SQL (Postgres), HTML/CSS} \\
+     \textbf{Frameworks}{: SvelteKit, Nuxt, Node.js, Django, Material-UI} \\
+     \textbf{Developer Tools}{: Arch Linux, Nix, NeoVim, Git, Docker, Kubernetes, Vercel, PlanetScale, Google Cloud Platform, VS Code, IntelliJ} \\
+     \textbf{Libraries}{: Tokio, Serde, React}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
