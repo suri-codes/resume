@@ -67,6 +67,8 @@ as possible and create a safe and friendly community.
   company: "Mini Cat Town",
   dates: dates-helper(start-date: "November 2024", end-date: "Present"),
 )
+
+
 Greeting customers, taking care of cats, and giving them the daily check
 ups along with medicine. I did many other tasks; cleaning up the litter box,
 mopping, clipping cat's claws, ,making sure the customers were following the
