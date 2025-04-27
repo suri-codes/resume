@@ -125,6 +125,6 @@
 - Project for graduate level research class, report available #link("https://drive.google.com/file/d/15nm5yllC4aBIhJzuWWI5bV3GLxm6wPHx/view?usp=sharing")[here]
 
 == Skills
-- *Programming Languages*: Rust, Go, C/C++, Protobuf, Type/Javascript, Python, SQL (Postgres)
+- *Programming Languages*: Rust, Go, C/C++, Protobuf, Type/Javascript, Python, SQL (Postgres, Sqlite)
 - *Developer Tools*: Git, Nix, Helix, Docker
 - *Technologies*: gRPC, REST-API, AWS (EC2)  
