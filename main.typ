@@ -97,7 +97,7 @@
 
 #extracurriculars(
   activity: "MITRE eCTF 2025",
-  dates: dates-helper(start-date: "Jan 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "Jan 2025", end-date: "April 2025"),
   tools: "Rust, Docker, OpenOCD, Embedded Programming, GDB, Cryptography"
 )
 
