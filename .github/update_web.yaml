@@ -1,0 +1,49 @@
+
+name: Build and Publish Typst PDF
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-publish:
+
+    runs-on: ubuntu-latest
+    environment:
+      name: "personal website update"
+
+
+    steps:
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+
+      - name: Install Typst
+        run: |
+          curl -L https://github.com/typst/typst/releases/download/v0.13.1/typst-x86_64-unknown-linux-musl.tar.xz \
+            | tar -xJ
+          sudo mv typst /usr/local/bin/typst
+
+      - name: Compile Typst file
+        run: |
+          typst compile main.typ resume.pdf
+
+      - name: Checkout target repo
+        uses: actions/checkout@v4
+        with:
+          repository: suri-codes/personal_website
+          path: personal_website
+          token: ${{ secrets.PERSONAL_WEBSITE_TOKEN}}
+
+      - name: Copy PDF into target repo
+        run: |
+          cp output.pdf target-repo/
+
+      - name: Commit and push
+        run: |
+          cd personal_website
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add resume.pdf
+          git commit -m "Update PDF from source repo"
+          git push origin main
