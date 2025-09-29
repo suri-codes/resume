@@ -42,7 +42,7 @@ jobs:
 
       - name: Copy PDF into target repo
         run: |
-          cp output.pdf target-repo/
+          cp resume.pdf personal_website/public
 
       - name: Commit and push
         run: |
