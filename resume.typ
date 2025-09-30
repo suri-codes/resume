@@ -124,10 +124,10 @@
 #project(
   name: "TARS",
   url: "github.com/suri-codes/TARS",
-  tools: "Rust, Sqlite, HTTP"
+  tools: "Rust, Sqlite, HTTP, TUI"
 )
 - Built a custom task-tracking and long-term planning system, which I use daily to manage coursework and projects.
-- Developmed a TUI interface backed by a Sqlite daemon to fetch tasks from various sources i.e. Canvas, Google Calendar.
+- Developed a TUI interface backed by a Sqlite daemon to fetch tasks from various sources i.e. Canvas, Google Calendar.
 - Implemented using a client server architecture compounding to an approximately *8k* LOC production-style codebase.
 
 

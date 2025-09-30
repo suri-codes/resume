@@ -96,8 +96,8 @@
           contact-item(location),
           contact-item(email,link-type: "mailto:"),
           contact-item(personal-site, link-type: "https://"),
-          contact-item(github,link-name: "github", link-type: "https://"),
-          contact-item(linkedin,link-name: "linkedin", link-type: "https://"),
+          contact-item(github,link-name: "Github", link-type: "https://"),
+          contact-item(linkedin,link-name: "Linkedin", link-type: "https://"),
           contact-item(orcid, prefix: [#orcid-icon(color: rgb("#AECD54"))orcid.org/], link-type: "https://orcid.org/"),
         )
         items.filter(x => x != none).join("  |  ")
