@@ -117,7 +117,7 @@
   url: "github.com/suri-codes/Hermes",
   tools: "Rust, gRPC, Docker, AWS Nitro Enclaves"
 )
-- Implementation of #link("https://www.computer.org/csdl/proceedings-article/sp/2025/223600a065/21B7R9OGMwg", "SPARTA") a state-of-the-art meta-data private, traffic analysis-resistant messaging protocol.
+- Implementation of #link("https://www.computer.org/csdl/proceedings-article/sp/2025/223600a065/21B7R9OGMwg")[SPARTA] a state-of-the-art meta-data private, traffic analysis-resistant messaging protocol.
 - Expanded the system to support multiple devices per user and validated the proof-of-concept using AWS Nitro Enclaves.
 - Final project for graduate level research class, report available #link("https://drive.google.com/file/d/15nm5yllC4aBIhJzuWWI5bV3GLxm6wPHx/view?usp=sharing")[here].
 
@@ -126,7 +126,7 @@
   url: "github.com/suri-codes/TARS",
   tools: "Rust, Sqlite, HTTP"
 )
-- Personalized solution that's used daily for task-tracking as well as long-term planning.
+- Built a custom task-tracking and long-term planning system, which I use daily to manage coursework and projects.
 - Developmed a TUI interface backed by a Sqlite daemon to fetch tasks from various sources i.e. Canvas, Google Calendar.
 - Implemented using a client server architecture compounding to an approximately *8k* LOC production-style codebase.
 
@@ -135,5 +135,4 @@
 == Skills
 - *Programming Languages*: Rust, Go, C/C++, (Type/Java)script, Python, SQL (Postgres, Sqlite), Protobuf
 - *Developer Tools*: Git, Nix, Linux/Unix, GDB, Devcontainers, Cargo
-// - *Technologies*: gRPC, REST, AWS (EC2, Nitro Enclaves), QEMU CI/CD (Github Runners, n, 
 - *Technologies*: gRPC, TCP/IP,  REST APIs, eBPF, QEMU, AWS (EC2, Nitro Enclaves), CI/CD (GitHub Actions, GitLab Runners)
