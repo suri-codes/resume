@@ -51,7 +51,7 @@
   // Uncomment the line below if you want edu formatting to be consistent with everything else
   // consistent: true
 )
-- Cumulative GPA: 3.91\/4.0 | Dean's List
+- Cumulative GPA: *3.91*\/4.0 | Dean's List
 // - Relevant Coursework: Data Structures and Algorithms, Operating Systems, Parallel
 //   Programming, Computer Networks, Cryptography, Computer Architecture  
 - Relevant Coursework: Data Structures, OS, Networks, Cryptography, Parallel Programming
@@ -64,7 +64,7 @@
   dates: dates-helper(start-date: "Sep. 2024", end-date: "Present"),
   tools: "Rust, Qemu, Kernel Programming"
 )
-- Reduced OS build times by *90% (3h $->$ 20m)* by designing and deploying a #link("https://github.com/twizzler-operating-system/twizzler/pulls?q=+is%3Apr+author%3Asuri-codes+")[caching system]
+- Reduced OS build times by *90% (3h $->$ 20m)* by designing and deploying a #link("https://github.com/twizzler-operating-system/twizzler/pull/298")[caching system]
 - Implemented #link("https://github.com/twizzler-operating-system/twizzler/pulls?q=+is%3Apr+author%3Asuri-codes+")[kernel-level security primitives] (capabilities, memory isolation) for research OS.
 - Working with Professor Owen Arden to integrate Decentralized Information Flow Control into the OS kernel.
 
